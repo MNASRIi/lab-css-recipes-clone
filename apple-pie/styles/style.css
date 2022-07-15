@@ -1,5 +1,46 @@
-section img {
-    height: 100%;
-    width: 100%;
-  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
   
+  #apple-pie {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+#heading-container{
+  color: white;
+}
+#heading-container {
+  height: 100vh;
+  margin-bottom: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cooking{
+  display: block;
+  margin: 0 auto;
+}
+#info{
+  display: block;
+  margin: 0 auto;
+}
+#p1{
+  text-align: left;
+}
+#p2{
+  text-align: left;
+}
+
+#p3{
+  text-align: left;
+}
+
+
+
